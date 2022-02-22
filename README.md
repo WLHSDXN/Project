@@ -1,5 +1,9 @@
 # 说明
 
+# [Web Assignment](https://github.com/WLHSDXN/WLHSDXN.github.io) (2020-06)
+
+这是《Web前端》的大作业，是一个博客，百分百原创。
+
 # [Java Big Assignment](https://github.com/WLHSDXN/Project/tree/main/Java%20Big%20Assignment) （2021-01）
 
 《Java程序设计》大作业，我选做的是实现《三国杀》，特点是全自动出牌。
