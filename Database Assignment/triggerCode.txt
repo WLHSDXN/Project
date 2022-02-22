@@ -1,0 +1,8 @@
+Delimiter @@
+Create trigger t_delete_s before delete on s for each row
+Begin
+Declare oldsno char(8);
+Set oldsno=old.sno;
+Delete from sc where sc.sno=oldsno;
+End @@
+Delimiter ;
