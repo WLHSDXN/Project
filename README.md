@@ -1,6 +1,6 @@
 # 说明
 
-# [Web Assignment](https://github.com/WLHSDXN/WLHSDXN.github.io) (2020-06)
+# [Web Assignment](https://github.com/WLHSDXN/Project/tree/main/Web%20Assignment) (2020-06)
 
 这是《Web前端》的大作业，是一个博客，百分百原创。
 
