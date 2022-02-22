@@ -1,0 +1,36 @@
+Delimiter @@
+Create trigger tri_delete_reader before delete on reader for each row
+Begin
+Declare OLD_reader_no varchar(10);
+Set OLD_reader_no=old.reader_no;
+Delete from borrow where borrow.reader_no=OLD_reader_no;
+Delete from returnbook where returnbook.reader_no=OLD_reader_no;
+Delete from fineticket where fineticket.reader_no=OLD_reader_no;
+Delete from readercredit where readercredit.reader_no=OLD_reader_no;
+Delete from blacklist where blacklist.reader_no=OLD_reader_no;
+End @@
+Delimiter ;
+
+Delimiter @@
+Create trigger tri_delete_book before delete on book for each row
+Begin
+Declare OLD_book_no char(12);
+Set OLD_book_no=old.book_no;
+Delete from borrow where borrow.book_no=OLD_book_no;
+Delete from returnbook where returnbook.book_no=OLD_book_no;
+Delete from godownentry where godownentry.book_no=OLD_book_no;
+End @@
+Delimiter ;
+-- use lms;
+-- drop trigger tri_delete_book;
+
+
+
+Delimiter @@
+Create trigger tri_create_reader after insert on reader for each row
+Begin
+Declare OLD_reader_no varchar(10);
+Set OLD_reader_no=new.reader_no;
+insert into readercredit values(0,OLD_reader_no,1,"未知");
+End @@
+Delimiter ;
