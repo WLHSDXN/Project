@@ -1,0 +1,8 @@
+begin
+var i;
+i:=5;
+var j;
+j:=6.66;
+var k:=i+j;
+var l:=j*k;
+end
