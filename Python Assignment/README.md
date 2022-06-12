@@ -18,11 +18,11 @@
 
 # 玩法
 
-通过“空格”翻页，等出现选项的时候，选择对应选项即可，到最后大结局的时候，按“ESC”推出。
+通过“空格”翻页，等出现选项的时候，选择对应选项即可，到最后大结局的时候，按“ESC”退出。
 
 # 说明
 
-
+[预览PDF文档](https://wlhsdxn.github.io/pdfView/web/viewer.html?file=../../pdf/Python%20Assignment/设计思路.pdf)
 
 文件结构：
 

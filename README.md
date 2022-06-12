@@ -1,5 +1,7 @@
 # 说明
 
+（2022年6月12日）新增在线预览PDF文档功能，详见项目主页下方README
+
 # [Compilers Assignment](https://github.com/WLHSDXN/Project/tree/main/Compilers%20Assignment) (2021-11)
 
 《编译方法》的实验，制作一个简易编译器。
