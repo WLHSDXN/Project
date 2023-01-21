@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/breaker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/breaker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configClient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fallback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fallback/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
