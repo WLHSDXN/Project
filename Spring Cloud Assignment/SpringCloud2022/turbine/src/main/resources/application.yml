@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: turbine
+server:
+  port: 9002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.com:7001/eureka/,http://eureka2.com:7002/eureka/,http://eureka3.com:7003/eureka/
+turbine:
+  instanceUrlSuffix:
+    default: /hystrix.stream
+  app-config: provider
+  cluster-name-expression: "'default'"
+  combine-host-port: true
+
