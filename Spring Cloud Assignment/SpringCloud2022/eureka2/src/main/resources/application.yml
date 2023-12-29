@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: register-center
+server:
+  port: 7002
+eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 5000
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka.com:7001/eureka/,http://eureka3.com:7003/eureka/
+
+

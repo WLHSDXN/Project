@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="turbine" />
+        <module name="breaker" />
+        <module name="eureka3" />
+        <module name="configClient" />
+        <module name="eureka1" />
+        <module name="eureka2" />
+        <module name="configServer" />
+        <module name="provider1" />
+        <module name="provider2" />
+        <module name="feign" />
+        <module name="fallback" />
+        <module name="provider3" />
+        <module name="dashboard" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configClient222" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="dashboard2" target="8" />
+      <module name="dprovider2" target="1.8" />
+      <module name="new" target="8" />
+      <module name="turbine2" target="8" />
+      <module name="web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dashboard2" options="" />
+      <module name="turbine" options="" />
+    </option>
+  </component>
+</project>
