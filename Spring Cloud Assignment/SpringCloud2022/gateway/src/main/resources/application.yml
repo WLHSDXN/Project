@@ -1,0 +1,33 @@
+server:
+  port: 6001
+spring:
+  application:
+    name: gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.com:7001/eureka/,http://eureka2.com:7002/eureka/,http://eureka3.com:7003/eureka/
+  instance:
+    instance-id: gateway.com
+
+    prefer-ip-address: true
+zuul:
+  routes:
+    # user为访问代理名，可使用代理名或者微服务名访问
+    user:
+      serviceId: provider
+      path: /mall/**
+  # 隐藏微服务名
+  #  ignored-services: provider
+  # 隐藏所有微服务名
+  ignored-services: "*"
+
+  # 增加前缀以后，只能加上前缀才能访问到微服务
+  prefix: /ckp
+
+#  AccessTokenFilter:
+#    pre:
+#      disable: true
+#  AccessTokenFilter1:
+#    pre:
+#      disable: true

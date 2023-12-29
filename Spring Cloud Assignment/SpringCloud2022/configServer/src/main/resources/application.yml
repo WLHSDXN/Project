@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          #uri: https://github.com/ntc19235/springcloud-config.git
+          uri: https://gitee.com/Ckp7581/springcloud-config.git
+          #          username: yukp_5365
+          #          password: asdf1234
+          username: 13998249882
+          password: Ckp13998249882
+
+      label: master
+      #设置跳过ssl校验
+#      skip-ssl-validation: true
+server:
+  port: 7755

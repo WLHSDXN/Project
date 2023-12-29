@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: provider
+  datasource:
+    url: jdbc:mysql://localhost:3306/springcloud2022?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+server:
+  port: 8003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.com:7001/eureka/,http://eureka2.com:7002/eureka/,http://eureka3.com:7003/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: goods-provider-3
+info.app.name: provider-3
+info.company.name: Ckp
+info.author.name: demo
+logging:
+  level:
+    root: INFO
